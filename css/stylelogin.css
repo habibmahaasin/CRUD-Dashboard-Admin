@@ -1,0 +1,75 @@
+<style type="text/css">
+
+
+
+    body{
+    font-family: sans-serif;
+    background-color: #03a33b;
+}
+
+h1{
+    
+    text-align: center;
+    font-weight: 300;
+}
+
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kotak_login{
+    margin-top: 5%;
+    width: 350px;
+    background: #fff;
+    padding: 30px 30px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 11pt;
+}
+
+.form_login{
+    /*membuat lebar form penuh*/
+    box-sizing : border-box;
+    width: 100%;
+    
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: #2aa7e2;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link{
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.alert{
+    background: #e44e4e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border:1px solid #b32929;
+}
+
+::-moz-selection {     /* Firefox */
+    background: #03a33b;
+    color: #fff;
+}
+::selection {      /* Chrome, Safari, IE9, Opera */
+    background: #03a33b;
+    color: #fff;
+}
+</style>
